@@ -1,0 +1,12 @@
+board.sysid=0xe970
+board.name=Ubiquiti DockerKey
+board.shortname=UCKP
+board.subtype=
+board.reboot=30
+board.upgrade=310
+board.cpu.id=410fd034-00000000
+board.uuid=<INSERT LOWERCASE UUID HERE>
+board.bom=113-02570-16
+board.hwrev=0xa0a10
+board.serialno=a123cHanGemE
+board.qrid=Q0Dibb

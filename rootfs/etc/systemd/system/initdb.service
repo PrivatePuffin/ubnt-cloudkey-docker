@@ -1,0 +1,10 @@
+[Unit]
+Description=Postgres Initializor
+Before=postgresql@9.6-main.service
+StartLimitIntervalSec=0
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/infinytum-initdb
+User=postgres
+[Install]
+WantedBy=postgresql@9.6-main.service
